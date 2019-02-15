@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "express": "^4.16.4",
+    "lodash": "^4.17.11",
     "mariadb": "^0.7.0"
   },
   "devDependencies": {},
