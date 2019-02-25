@@ -22,16 +22,13 @@
 								#
 							</th>
 							<th style="width:20%;">
-								Name
+								Name *
 							</th>
 							<th style="width:20%;">
 								Favorite Colour
 							</th>
-							<th style="width:40%;" colspan="2">
-								Cats or Dogs?
-							</th>
-							<th style="width:10%;">
-							
+							<th style="width:40%;" colspan="3">
+								Cats or Dogs *?
 							</th>
 						</tr>				
 						<tr id="data_insert_row">
@@ -43,20 +40,20 @@
 							<td>
 								<input id="colour" type="text"></input>
 							</td>
-							<td>
-								<input id="preference" name="animal" type="radio" value=0>Team Cade
+							<td style="border-left: 0px solid; border-right: 0px solid;">
+								<input name="animal" type="radio" value="cat" checked>Team Cade
 									<br>
 									<img class="td_img" style="display:block; width:100%; height:auto;" src="images/tacocat.jpg"></img>
 									</br>
 							</td>
-							<td>
-								<input id="preference" name="animal" type="radio" value=1>Team Pupper
+							<td style="border-left: 0px solid; border-right: 0px solid;">
+								<input name="animal" type="radio" value="dog">Team Pupper
 									<br>
 									<img class="td_img" style="display:block; width:100%; height:auto;" src="images/doggo.jpg"></img>
 									</br>
 							</td>
 							<td>
-								<button>Add</button>
+								<button onclick="add_entry()">Add</button>
 							</td>
 						</tr>
 					</table>
