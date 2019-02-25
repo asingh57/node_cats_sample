@@ -70,7 +70,7 @@ app.get('/get_all_users', (req, res) => { //gets all users and their preferences
         })
     }).catch(err => {
       //not connected
-        conn.end();
+
         console.log("connection failed");
         res.status(500).send(err);
     });
